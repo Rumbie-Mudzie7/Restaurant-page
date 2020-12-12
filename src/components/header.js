@@ -20,12 +20,8 @@ const Header = (() => {
     unOrdered.appendChild(contactList);
     nav.appendChild(unOrdered);
     mainElement.appendChild(nav);
-
-
-    
-
-    }
-    return {createNav};
+  }
+    return { createNav };
 })();
 
 export default Header
