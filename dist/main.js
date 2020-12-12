@@ -1,1 +1,1 @@
-console.log("Here I am to worship");
+(()=>{"use strict";var e,t,n,d,l,c;e=document.getElementById("content"),t=document.createElement("nav"),n=document.createElement("ul"),d=document.createElement("li"),l=document.createElement("li"),c=document.createElement("li"),n.appendChild(d),n.appendChild(l),n.appendChild(c),t.appendChild(n),e.appendChild(t),d.textContent="Home",l.textContent="Menu",c.textContent="Contact"})();
