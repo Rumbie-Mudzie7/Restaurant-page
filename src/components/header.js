@@ -2,6 +2,7 @@ const Header = (() => {
   
   const createNav = () => {
     const mainElement = document.getElementById('content');
+    
     const nav = document.createElement('nav');
     const unOrdered = document.createElement('ul');
     const homeList = document.createElement('li');
