@@ -4,7 +4,7 @@ const Menu = (() => {
     const content = document.getElementById('content');
 
   }
-  return { menuCategories }
+  return { menuCategories };
 })();
 
 export default Menu
