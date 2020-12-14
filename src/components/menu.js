@@ -73,6 +73,7 @@ const Menu = (() => {
 
 
      // appending elements to parent div
+     
 
   }
   return { menuCategories };
