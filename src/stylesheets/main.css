@@ -30,6 +30,13 @@ body {
   font-family: "Dancing Script", cursive;
 }
 
+.navbar > ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  background-color: blue;
+}
+
 .menu-wrapper {
   display: flex;
   flex-direction: row;
