@@ -3,5 +3,6 @@ import Header from './components/header'
 // Home.homePage();
 let navbar = Header();
 let mainDiv = document.getElementById('content');
-
 mainDiv.appendChild(navbar.createNav());
+
+

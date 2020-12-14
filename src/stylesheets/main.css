@@ -6,6 +6,7 @@
 }
 
 body {
+  position: relative;
   margin: 0;
   padding: 0;
 }
@@ -30,11 +31,29 @@ body {
   font-family: "Dancing Script", cursive;
 }
 
-.navbar > ul {
+/* .navbar > ul { */
+ul {
   display: flex;
-  list-style-type: none;
   justify-content: space-around;
-  background-color: blue;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+
+li {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li:hover {
+  background-color:rgba(0, 0, 0, 0.2);
 }
 
 .menu-wrapper {
@@ -48,12 +67,12 @@ body {
 
 .left-btm-section {
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-  url("../images/Exclusive-menu-2.jpeg") center center;
+    url("../images/Exclusive-menu-2.jpeg") center center;
   margin: 0 3rem;
 }
 
 .right-btm-section {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-  url("../images/Exclusive-menu-3.jpeg") center center;
+    url("../images/Exclusive-menu-3.jpeg") center center;
   margin: 0 3rem;
 }
