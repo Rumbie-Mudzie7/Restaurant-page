@@ -7,9 +7,9 @@ const Header = (() => {
     const menuList = document.createElement('li');
     const contactList = document.createElement('li');
     
-    homeList.setAttribute('id', 'home');
-    menuList.setAttribute('id', 'menu');
-    contactList.setAttribute('id', 'contact');
+    homeList.setAttribute('class', 'tab');
+    menuList.setAttribute('class', 'tab');
+    contactList.setAttribute('class', 'tab');
 
     homeList.textContent = 'Home';
     menuList.textContent = 'Menu';

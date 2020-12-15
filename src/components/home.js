@@ -1,7 +1,7 @@
 const Home = (() => {
   
   const homePage = () => {
-  const content = document.getElementById('content');
+  const mainContent = document.createElement('div');
 
   // creating DOM elements
     const banner = document.createElement('section');
@@ -68,8 +68,9 @@ const Home = (() => {
     banner.appendChild(heading);
     banner.appendChild(description);
     banner.appendChild(menuBtn);
-    content.appendChild(banner);
-    content.appendChild(menuWrapper);
+    mainContent.appendChild(banner);
+    mainContent.appendChild(menuWrapper);
+    return mainContent;
   }
 return { homePage };
 })();

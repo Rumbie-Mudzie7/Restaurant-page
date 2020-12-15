@@ -1,7 +1,7 @@
 const Menu = (() => {
 
   const menuCategories = () => {
-    const content = document.getElementById('content');
+    const menuContent = document.createElement('div');
 
     // creating DOM elements
     const breakfast = document.createElement('div');
@@ -29,21 +29,21 @@ const Menu = (() => {
     const desertBtn= document.createElement('button');
 
      // assigning text to element variables
-    menuHeading1 = "Breakfast Deluxe";
-    menuHeading.textContent = "Enjoy our Premium Breakfasts";
-    breakfastBtn = "View Menu";
+    menuHeading1.textContent = "Breakfast Deluxe";
+    menuDescription1.textContent = "Enjoy our Premium Breakfasts";
+    breakfastBtn.textContent = "View Menu";
 
-    menuHeading2 = "Lunch Deluxe";
-    menuHeading.textContent = "Enjoy our Premium Lunch";
-    lunchBtn = "View Menu";
+    menuHeading2.textContent = "Lunch Deluxe";
+    menuDescription2.textContent = "Enjoy our Premium Lunch";
+    lunchBtn.textContent = "View Menu";
 
-    menuHeading3 = "Dinner Deluxe";
-    menuHeading.textContent = "Enjoy our Premium Dinner";
-    dinnerBtn = "View Menu";
+    menuHeading3.textContent = "Dinner Deluxe";
+    menuDescription3.textContent = "Enjoy our Premium Dinner";
+    dinnerBtn.textContent = "View Menu";
 
-    menuHeading4 = "Desert Deluxe";
-    menuHeading.textContent = "Enjoy our Premium Breakfasts";
-    desertBtn = "View Menu";
+    menuHeading4.textContent = "Desert Deluxe";
+    menuDescription4.textContent = "Enjoy our Premium Breakfasts";
+    desertBtn.textContent = "View Menu";
      
 
      // classList attributes for styling
@@ -73,10 +73,31 @@ const Menu = (() => {
 
 
      // appending elements to parent div
-     
-
+    breakfast.appendChild(menuHeading1);
+    breakfast.appendChild(breakfastImg);
+    breakfast.appendChild(menuDescription1);
+    breakfast.appendChild(breakfastBtn);
+    lunch.appendChild(menuHeading2);
+    lunch.appendChild(lunchImg);
+    lunch.appendChild(menuDescription2)
+    lunch.appendChild(lunchBtn);
+    dinner.appendChild(menuHeading3);
+    dinner.appendChild(dinnerImg);
+    dinner.appendChild(menuDescription3);
+    dinner.appendChild(dinnerBtn);
+    desert.appendChild(menuHeading4);
+    desert.appendChild(lunchImg);
+    desert.appendChild(menuDescription4)
+    desert.appendChild(desertBtn);
+    menuContent.appendChild(breakfast);
+    menuContent.appendChild(lunch);
+    menuContent.appendChild(dinner);
+    menuContent.appendChild(desert);
+    return menuContent;
   }
   return { menuCategories };
 })();
 
 export default Menu
+
+
