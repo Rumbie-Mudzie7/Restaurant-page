@@ -49,28 +49,28 @@ const Menu = (() => {
      // classList attributes for styling
      menuContent.classList = "menu-content";
      breakfast.classList = "menu-section1";
-     menuHeading1.classList = "menu-header";
+     menuHeading1.classList = "home-description";
      breakfastImg.classList = "break-img";
-     menuDescription1.classList = "menu-desc";
-     breakfastBtn.classList = "break-button";
+     menuDescription1.classList = "menu-description";
+     breakfastBtn.classList = "home-button";
 
      lunch.classList = "menu-section2";
-     menuHeading2.classList = "menu-header2";
+     menuHeading2.classList = "home-description";
      lunchImg.classList = "lunch-img";
-     menuDescription2.classList = "menu-desc";
-     lunchBtn.classList = "lunch-button";
+     menuDescription2.classList = "menu-description";
+     lunchBtn.classList = "home-button";
 
      dinner.classList = "menu-section3";
-     menuHeading3.classList = "menu-header3";
+     menuHeading3.classList = "home-description";
      dinnerImg.classList = "break-img";
-     menuDescription3.classList = "menu-desc3";
-     dinnerBtn.classList = "dinner-button";
+     menuDescription3.classList = "menu-description";
+     dinnerBtn.classList = "home-button";
 
      desert.classList = "menu-section4";
-     menuHeading4.classList = "menu-header4";
+     menuHeading4.classList = "home-description";
      desertImg.classList = "desert-img";
-     menuDescription4.classList = "menu-desc4";
-     desertBtn.classList = "desert-button";
+     menuDescription4.classList = "menu-description";
+     desertBtn.classList = "home-button";
 
 
      // appending elements to parent div

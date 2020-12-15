@@ -35,8 +35,26 @@ nav {
 
 .home-header {
   color: #fff;
+  font-size: 4rem;
+  font-family: "Dancing Script", cursive;
+}
+
+.home-description {
+  color: #fff;
   font-size: 2rem;
   font-family: "Dancing Script", cursive;
+}
+
+.menu-description {
+  color: #fff;
+  font-size: 1rem;
+  font-family: "Dancing Script", cursive;
+}
+
+.home-button {
+  padding: 10px 30px;
+  background-color: rgb(163, 8, 57);
+  color: #fff;
 }
 
 /* .navbar > ul { */
@@ -69,22 +87,25 @@ li:hover {
 
 .menu-wrapper {
   display: grid;
-  grid-gap: 50px;
+  grid-gap: 40px;
   grid-template-columns: auto auto;
   background-color: #e1e1e1;
-  padding: 10px;
+  padding: 30px;
+  text-align: center;
 }
 
 .left-btm-section {
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
     url("../images/Exclusive-menu-2.jpeg") center center;
   margin: 0 3rem;
+  height: 200px;
 }
 
 .right-btm-section {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../images/Exclusive-menu-3.jpeg") center center;
   margin: 0 3rem;
+  height: 200px;
 }
 
 .menu-content {
@@ -135,4 +156,16 @@ li:hover {
     url("../images/Exclusive-menu-3.jpeg") center center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.contact-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("../images/Exclusive-restaurant-3.jpg") center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.contact-header {
+  position: absolute;
+  top: 200px;
 }

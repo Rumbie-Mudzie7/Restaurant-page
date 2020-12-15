@@ -9,7 +9,7 @@ const Contact = (() => {
       const contactDesc = document.createElement('p');
       const contactBtn = document.createElement('button');
 
-      // contactWrapper.classList = "contact-wrapper";
+      contactContent.classList = "contact-wrapper";
       contactBanner.classList = "contact-section";
       contactHeading.classList = "contact-header";
       contactDesc.classList = "contact-description";

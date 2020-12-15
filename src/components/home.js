@@ -43,16 +43,16 @@ const Home = (() => {
     menuBtn.classList = "home-button";
 
     breakfast.classList = "left-btm-section";
-    menuHeading1.classList = "menu-heading1";
+    menuHeading1.classList = "home-description";
     breakfastImg.classList = "breakfast-img1";
-    menuDescription1.classList = "menu-description1";
-    menuBtn1.classList = "home-button1";
+    menuDescription1.classList = "menu-description";
+    menuBtn1.classList = "home-button";
 
     lunch.classList = "right-btm-section";
-    menuHeading2.classList = "menu-heading2";
+    menuHeading2.classList = "home-description";
     lunchImg.classList = "lunch-img2";
-    menuDescription2.classList = "menu-description2";
-    menuBtn2.classList = "home-button2";
+    menuDescription2.classList = "menu-description";
+    menuBtn2.classList = "home-button";
 
   // appending elements to parent div
     breakfast.appendChild(menuHeading1);
