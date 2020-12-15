@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #E1E1E1;
+  background-color: #e1e1e1;
   position: relative;
   margin: 0;
   padding: 0;
@@ -14,7 +14,7 @@ body {
 
 nav {
   position: fixed;
-  top: -20px;
+  top: 0;
   left: 0;
   right: 0;
 }
@@ -60,20 +60,19 @@ li {
 
 /* Change the link color to #111 (black) on hover */
 li:hover {
-  background-color:rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 .active {
-  background-color: red !important;
+  background-color: rgb(128, 114, 114) !important;
 }
 
 .menu-wrapper {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  max-width: 1200px;
-  margin: 0 auto;
+  display: grid;
+  grid-gap: 50px;
+  grid-template-columns: auto auto;
+  background-color: #e1e1e1;
+  padding: 10px;
 }
 
 .left-btm-section {
@@ -86,4 +85,54 @@ li:hover {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../images/Exclusive-menu-3.jpeg") center center;
   margin: 0 3rem;
+}
+
+.menu-content {
+  display: grid;
+  grid-gap: 50px;
+  grid-template-columns: auto auto;
+  background-color: #e1e1e1;
+  position: relative;
+  top: 120px;
+  text-align: center;
+}
+
+.menu-section1 {
+  margin: 0 auto;
+  width: 30rem;
+  height: 200px;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("../images/Exclusive-menu-3.jpeg") center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.menu-section2 {
+  margin: 0 auto;
+  width: 30rem;
+  height: 200px;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("../images/Exclusive-menu-3.jpeg") center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.menu-section3 {
+  margin: 0 auto;
+  width: 30rem;
+  height: 200px;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("../images/Exclusive-menu-3.jpeg") center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.menu-section4 {
+  margin: 0 auto;
+  width: 30rem;
+  height: 200px;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("../images/Exclusive-menu-3.jpeg") center center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }

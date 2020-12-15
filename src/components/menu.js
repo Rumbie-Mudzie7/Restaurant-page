@@ -47,16 +47,17 @@ const Menu = (() => {
      
 
      // classList attributes for styling
+     menuContent.classList = "menu-content";
      breakfast.classList = "menu-section1";
-     menuHeading1.classList = "menu-header1";
+     menuHeading1.classList = "menu-header";
      breakfastImg.classList = "break-img";
-     menuDescription1.classList = "menu-desc1";
+     menuDescription1.classList = "menu-desc";
      breakfastBtn.classList = "break-button";
 
      lunch.classList = "menu-section2";
      menuHeading2.classList = "menu-header2";
      lunchImg.classList = "lunch-img";
-     menuDescription2.classList = "menu-desc2";
+     menuDescription2.classList = "menu-desc";
      lunchBtn.classList = "lunch-button";
 
      dinner.classList = "menu-section3";
@@ -65,7 +66,7 @@ const Menu = (() => {
      menuDescription3.classList = "menu-desc3";
      dinnerBtn.classList = "dinner-button";
 
-     desert.classList = "menu-section";
+     desert.classList = "menu-section4";
      menuHeading4.classList = "menu-header4";
      desertImg.classList = "desert-img";
      menuDescription4.classList = "menu-desc4";
