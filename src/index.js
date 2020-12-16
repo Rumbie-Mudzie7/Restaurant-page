@@ -1,36 +1,36 @@
-import Header from './components/header'
-import Home from './components/home'
-import Menu from './components/menu'
-import Contact from './components/contact'
+import Header from './components/header';
+import Home from './components/home';
+import Menu from './components/menu';
+import Contact from './components/contact';
 
-let body = document.querySelector('body');
-let navbar = Header();
-let mainDiv = document.getElementById('content');
+const body = document.querySelector('body');
+const navbar = Header();
+const mainDiv = document.getElementById('content');
 body.appendChild(navbar.createNav());
 
 
-let showMenuView = () => {
-  let views = document.querySelectorAll('.home-button');
+const showMenuView = () => {
+  const views = document.querySelectorAll('.home-button');
   for (let i = 0; i < views.length; i += 1) {
-    views[i].addEventListener('click', function() {
-      mainDiv.innerHTML = "";
+    views[i].addEventListener('click', () => {
+      mainDiv.innerHTML = '';
       mainDiv.appendChild(Menu.menuCategories());
     });
   }
-}
+};
 
-let tabs = document.getElementsByClassName('tab');
+const tabs = document.getElementsByClassName('tab');
 for (let i = 0; i < tabs.length; i += 1) {
-  tabs[i].addEventListener('click', function(e) {
-    let myTabs = document.getElementsByClassName('tab');
+  tabs[i].addEventListener('click', (e) => {
+    const myTabs = document.getElementsByClassName('tab');
     for (let j = 0; j < myTabs.length; j += 1) {
       myTabs[j].classList.remove('active');
     }
     e.target.classList.add('active');
 
-    mainDiv.innerHTML = "";
+    mainDiv.innerHTML = '';
 
-    switch(e.target.textContent) {
+    switch (e.target.textContent) {
       case 'Home':
         mainDiv.appendChild(Home.homePage());
         showMenuView();
@@ -49,20 +49,3 @@ for (let i = 0; i < tabs.length; i += 1) {
 }
 
 tabs[0].click();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

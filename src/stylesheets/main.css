@@ -53,7 +53,8 @@ nav {
 
 .home-section {
   height: 90vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../images/Exclusive-restaurant-1.jpg") center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -127,7 +128,8 @@ li:hover {
 }
 
 .left-btm-section {
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
     url("../images/Exclusive-menu-3.jpeg") center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -136,7 +138,8 @@ li:hover {
 }
 
 .right-btm-section {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../images/Exclusive-menu-4.jpg") center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -158,7 +161,8 @@ li:hover {
   margin: 0 auto;
   width: 30rem;
   height: 200px;
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
     url("../images/Exclusive-menu-1.jpg") center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -168,7 +172,8 @@ li:hover {
   margin: 0 auto;
   width: 30rem;
   height: 200px;
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
     url("../images/Exclusive lunch-1.jpg") center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -178,7 +183,8 @@ li:hover {
   margin: 0 auto;
   width: 30rem;
   height: 200px;
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
     url("../images/Exclusive-dinner-2.jpeg") center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -188,7 +194,8 @@ li:hover {
   margin: 0 auto;
   width: 30rem;
   height: 200px;
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
     url("../images/Exclusive-menu-2.jpeg") center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -196,7 +203,8 @@ li:hover {
 
 .contact-wrapper {
   height: 100vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)),
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)),
     url("../images/Exclusive-restaurant-3.jpg") center center;
   background-size: cover;
   background-repeat: no-repeat;

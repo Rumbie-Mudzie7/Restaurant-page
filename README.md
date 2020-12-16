@@ -1,17 +1,21 @@
-# Library
-The Library project demonstrates the Authors' understanding of JavaScript fundamentals, that include Objects and Object Constructors, DOM Manipulation, among others, by implementing the following requirements of the project:
+# Restaurant-Page
+The Restaurant-page project demonstrates the Author' understanding of JavaScript fundamentals, that include Modules, ES6 concepts and DOM Manipulation, among others, by implementing the following requirements of the project:
 
-1. Setting up the project with skeleton HTML5/CSS3 and JS files.
+1. Initializing the project with npm and setting up webpack.
 
-2. Adding a function to the script that can take the user’s input and store the new book objects into an array.
+2. Creating a src and dist directory with the following contents:
+    - an index.js file in src.
+    - an index.html file in dist. 
 
-3. Adding buttons to allow users to create, delete a book, and change the `read status` of a book.
+3. Using the DOM Manipulation to manipulate HTML elements in JavaScript.
+
+4. Setting up the restaurant site to use tabbed browsing to access the Contact and Menu pages.
 
 
 
 ## Built With
 
-- HTML5, JavaScript and CSS3
+- HTML5, JavaScript, ES6 and CSS3
 
 
 ## Getting Started
@@ -21,13 +25,16 @@ To get a local copy up and running follow these simple example steps.
 ### Prerequisites
 
 - Code Editor of your choice
+- Initialize npm by running `npm init` in your project terminal.
+- Install and run webpack. For guideance on installing and running webpack, [ please visit](https://actualize.teachable.com/courses/347362/lectures/5396444)
+
 
 ### Setup
 
 - To clone the repo to your local repository. Follow this steps
-- <code> git clone https://github.com/Rumbie-Mudzie7/Library.git</code>
-- <code> cd library</code>
-- Open `index.html` in your preferred browser.
+- <code> git clone https://github.com/Rumbie-Mudzie7/Restaurant-page.git</code>
+- <code> cd restaurant-page</code>
+- Open `src/index.js` in your preferred browser.
 
 
 ## Author
@@ -41,7 +48,7 @@ To get a local copy up and running follow these simple example steps.
 ## :handshake: Contributing
 
 There are two ways of contributing to this project:
-1.  If you see something wrong or not working, please check [the issue tracker section](https://github.com/Rumbie-Mudzie7/Library/issues), if that problem you met is not in already opened issues then open the issue by clicking on `new issue` button.
+1.  If you see something wrong or not working, please check [the issue tracker section](https://github.com/Rumbie-Mudzie7/Restaurant-page/issues), if that problem you met is not in already opened issues then open the issue by clicking on `new issue` button.
 2.  If you have a solution to that, and you are willing to work on it, follow the below steps to contribute:
     1.  Fork this repository
     1.  Clone it on your local computer by running `git clone https://github.com/Rumbie-Mudzie7/Restaurant-page.git` __Replace *Rumbie-Mudzie7* with the username you use on github__
@@ -58,8 +65,9 @@ There are two ways of contributing to this project:
 Give a :star:️ if you like this project!
 
 ## Acknowledgments
+[Webpack tutorial](https://actualize.teachable.com/courses/347362/lectures/5396444)
 [Microverse](https://www.microverse.org)
-[Odin Project](https://www.theodinproject.com/courses/javascript/lessons/library)
+[Odin Project](https://https://www.theodinproject.com/courses/javascript/lessons/restaurant-page)
 
 ## :memo: License
 
