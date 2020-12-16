@@ -8,6 +8,7 @@ const Header = (() => {
 
     homeList.setAttribute('class', 'tab');
     menuList.setAttribute('class', 'tab');
+    menuList.setAttribute('id', 'menu-tab');
     contactList.setAttribute('class', 'tab');
 
     homeList.textContent = 'Home';

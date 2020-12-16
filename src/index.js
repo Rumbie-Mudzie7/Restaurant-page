@@ -13,6 +13,11 @@ const showMenuView = () => {
   const views = document.querySelectorAll('.home-button');
   for (let i = 0; i < views.length; i += 1) {
     views[i].addEventListener('click', () => {
+      const myTabs = document.getElementsByClassName('tab');
+      for (let j = 0; j < myTabs.length; j += 1) {
+        myTabs[j].classList.remove('active');
+      }
+      document.getElementById('menu-tab').classList.add('active');
       mainDiv.innerHTML = '';
       mainDiv.appendChild(Menu.menuCategories());
     });

@@ -1,8 +1,8 @@
 # Restaurant-Page
 
-[Screenshot](./images/restaurant.shot.png)
+![Screenshot](src/images/restaurant-shot.png)
 
-The Restaurant-page project demonstrates the Author' understanding of JavaScript fundamentals, that include Modules, ES6 concepts and DOM Manipulation, among others, by implementing the following requirements of the project:
+The Restaurant-page project demonstrates the Author's understanding of JavaScript fundamentals, that include Modules, ES6 concepts and DOM Manipulation, among others, by implementing the following requirements of the project:
 
 1. Initializing the project with npm and setting up webpack.
 
