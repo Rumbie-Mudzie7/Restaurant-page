@@ -12,6 +12,38 @@ body {
   padding: 0;
 }
 
+.main-content,
+.menu-content,
+.contact-wrapper {
+  -webkit-animation: fadeeffect 1s;
+  animation: fadeEffect 1s;
+}
+
+/* Fade in tabs */
+@-webkit-keyframes fadeeffect {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeEffect {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.main-content {
+  margin-top: 100px;
+}
+
 nav {
   position: fixed;
   top: 0;
@@ -162,14 +194,21 @@ li:hover {
   background-repeat: no-repeat;
 }
 
-.contact-section {
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+.contact-wrapper {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)),
     url("../images/Exclusive-restaurant-3.jpg") center center;
   background-size: cover;
   background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  margin: 100px auto 50px auto;
 }
 
 .contact-header {
-  position: absolute;
-  top: 200px;
+  /* position: absolute;
+  top: 200px; */
 }

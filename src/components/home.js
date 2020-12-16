@@ -36,6 +36,7 @@ const Home = (() => {
     menuBtn2.textContent = "View Menu";
     
   // classList attributes for styling
+    mainContent.classList = "main-content";
     menuWrapper.classList = "menu-wrapper";
     banner.classList = "home-section";
     heading.classList = "home-header";
