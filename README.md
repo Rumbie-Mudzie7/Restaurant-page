@@ -2,7 +2,7 @@
 
 ![Screenshot](src/images/restaurant-shot.png)
 
-[Live Demo](https://rawcdn.githack.com/Rumbie-Mudzie7/Restaurant-page/29669a4090f1296bcac4415e92ea0b4a14f01fa3/dist/index.html)
+[Live Demo](https://rawcdn.githack.com/Rumbie-Mudzie7/Restaurant-page/614082065e8c9485307b72af2400fd897e0908aa/dist/index.html)
 
 The Restaurant-page project demonstrates the Author's understanding of JavaScript fundamentals, that include Modules, ES6 concepts and DOM Manipulation, among others, by implementing the following requirements of the project:
 
